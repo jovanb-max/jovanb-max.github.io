@@ -137,7 +137,6 @@ h1 {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 5rem;
-    background-image: url(media/wreath-128.png);
     background-repeat: no-repeat;
     background-position: center top;
     padding-top: 160px;
@@ -227,7 +226,6 @@ nav.show {
     list-style-type: none;
     margin: 0;
     padding: 4rem 0 0 0;
-    background-image: url(media/wreath-32.png);
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -284,7 +282,6 @@ h2 {
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 1.3px;
-    background-image: url(media/wreath-32.png);
     background-repeat: no-repeat;
     background-position: center top;
     padding: 4rem 0 1rem 0;
