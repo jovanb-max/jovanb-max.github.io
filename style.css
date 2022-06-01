@@ -44,7 +44,7 @@ header {
 
 header::before {
     content: "";
-    background-image: url(Bakla.PNG);
+    background-image: url(Media/Bakla.PNG);
     background-size: cover;
     background-position: center;
     position: absolute;
