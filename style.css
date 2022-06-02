@@ -294,6 +294,10 @@ h2 {
 
 #CDs img {
     border: 3px outset red;
+    position: center;
+    width: 1277px;
+    height: 534px;
+    object-fit: cover;
 }
 
 #linkbtn:hover {
