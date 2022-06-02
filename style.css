@@ -298,6 +298,7 @@ h2 {
 
 #linkbtn:hover {
     transform: scale(1.1);
+    color:red
 }
 
 audio {
