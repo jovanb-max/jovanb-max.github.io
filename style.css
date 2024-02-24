@@ -287,18 +287,35 @@ h2 {
     padding: 4rem 0 1rem 0;
 }
 
-#CDs p {
-    padding: 1rem;
+#CDs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#CDs div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
+#CDs p {
+    padding: 1rem;
+}
+
 #CDs img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     border: 3px outset red;
-    position: center;
-    width: 1277px;
-    height: 534px;
     object-fit: cover;
 }
+
+#CDs img:hover {
+    transform: scale(1.1);
+}
+
 
 #linkbtn:hover {
     transform: scale(1.1);
