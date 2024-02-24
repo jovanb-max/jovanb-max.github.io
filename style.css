@@ -332,40 +332,54 @@ audio {
     outline: none;
 }
 
+
 #subscribebtns {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     max-width: 900px;
     margin: 0 auto;
 }
- 
-#subscribebtns a div:first-child {
-    margin-right: 14px;
-}
-
-#subscribebtns a div:last-child {
-    white-space: nowrap;
-}
 
 #subscribebtns a {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
     color: #fff;
     background-color: #111;
     border: 1px solid #585858;
     padding: 12px 14px;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 0;
-    margin: 0 1rem;
     transition: all 0.4s;
+}
+
+#subscribebtns img {
+    display: block;
+    width: 3rem;
+    margin-bottom: 1rem; /* Adjust margin as needed */
+}
+
+#subscribebtns div {
+    white-space: nowrap;
+}
+
+/* Add specific styles for each button */
+#subscribebtns a:nth-child(1) img {
+    /* Styles for Apple Podcasts */
+}
+
+#subscribebtns a:nth-child(2) img {
+    /* Styles for Google Podcasts */
+}
+
+#subscribebtns a:nth-child(3) img {
+    /* Styles for Spotify Podcasts */
 }
 
 #subscribebtns a:hover {
     transform: scale(1.1);
 }
+
 
 @media (max-width: 900px) {
     
