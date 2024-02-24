@@ -12,15 +12,15 @@ html {
 }
 
 @media (max-width: 600px) {
-  html {
-    font-size: 14px;
-  }
+    html {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 420px) {
-  html {
-    font-size: 12px;
-  }
+    html {
+        font-size: 12px;
+    }
 }
 
 body {
@@ -250,6 +250,9 @@ main {
     position: relative;
     background-color: #1a1a1a;
     padding: 6rem 2rem 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 section {
@@ -258,7 +261,8 @@ section {
 
 #intro img {
     display: block;
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     border-radius: 50%;
     margin: 0 auto 3rem auto;
 }
@@ -329,8 +333,9 @@ audio {
 }
 
 #subscribebtns {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -385,7 +390,8 @@ audio {
 }
 
 form {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
     margin: 0 auto;
     max-width: 500px;
     transition: transform 0.3s;
@@ -445,6 +451,9 @@ footer {
     position: relative;
     background-color: #111;
     padding: 4rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 #social {
